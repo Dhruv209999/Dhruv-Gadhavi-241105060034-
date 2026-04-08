@@ -1,0 +1,44 @@
+🔹 Membership Operators in Python
+
+Membership operators are used to check whether a value exists inside a sequence such as a list, tuple, string, or set.
+
+👉 Types of Membership Operators:
+
+1. in operator
+Returns True if the value is present in the sequence.
+
+
+2. not in operator
+Returns True if the value is NOT present in the sequence.
+
+
+
+
+---
+
+✅ Examples:
+
+# Example with list
+numbers = [1, 2, 3, 4, 5]
+
+print(3 in numbers)       # True
+print(10 in numbers)      # False
+print(10 not in numbers)  # True
+
+# Example with string
+text = "Python"
+
+print("P" in text)        # True
+print("z" not in text)    # True
+
+
+---
+
+📌 Use Cases:
+
+Checking if an element exists in a list
+
+Validating user input
+
+Searching data in collections
+ 👍
